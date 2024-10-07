@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  }
+  
+  .navbar{
+    background-color: lavender;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: -7.2%;
+  }
+  .navbar h1{
+    float: left;
+    color: navy;
+    margin-left: 2%;
+    margin-top: 1.2%;
+    font-size: 36px;
+    
+  }
+  .navbar #a1{
+    
+    margin-left: 33%;
+    
+  }
+ 
+  .navbar a{
+    text-decoration: none;
+   display: inline-block;
+    font-size: 23px;
+    padding: 2%;
+    color: black;
+  }
+  .navbar a:hover{
+    color:  rgb(57, 57, 171);
+  }
+  
+
+  .body{
+    margin-left: 8%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    justify-content: baseline;
+    margin-top: 7%;
+  }
+  .body p{
+   font-size: 20px;
+   text-align: left;
+   
+    margin-left: 20%;
+    margin-right: 20%;
+   text-align: justify;
+    
+  }
+  .body img{
+   
+    width: 200px;
+    height: 200px;
+    margin-top: 2%;
+    position: absolute;
+  }
+  .banner{
+    margin-top: 5%;
+    width: 40vw;
+    height: 40vh;
+    padding: 5px;
+    position: relative;
+  }
+ .one{
+  top: 0;
+  left: 0;
+ }
+ .two{
+  top: 20%;
+  left: 10%;
+ }
+  .body button{
+    padding: 12px 34px;
+    background: linear-gradient(to right,rgba(23, 23, 113, 0.652),rgba(118, 35, 121, 0.586));
+    border: none;
+    border-radius: 2px;
+    margin-left: 34%;
+  }
+  #bottomm {
+    margin-top: 5%;
+    background-color: whitesmoke;
+  }
+  .signup {
+    background-color: rgb(168, 166, 166);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .email {
+    text-align: right;
+    font-size: 20px;
+    margin-right: 12px;
+    padding: 21px;
+  }
+  .email input {
+    padding: 10px;
+    width: 29%;
+    outline: none;
+  }
+  .email #signupbtn {
+    background-color: rgba(182, 127, 255, 0.868);
+  text-align: center;
+    padding-top: 1.5%;
+    padding-right: 1.4%;
+    padding-bottom: 1.5%;
+    padding-left: 1.4%;
+    color: white;
+    border: none;
+  
+  }
+  .news {
+    margin-left: 12px;
+    padding: 22px;
+    color: rgba(0, 0, 255, 0.507);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .news p {
+    font-size: 14px;
+  }
+  .data {
+    margin-top: 3%;
+    margin-left: 52px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    gap: 2%;
+  }
+  .data p {
+    margin-top: 7%;
+  }
+  .copyright {
+    margin-top: 12px;
+    text-align: right;
+    margin-right: 12px;
+  }
+  .know {
+    margin-top:7%;
+    padding: 22px;
+    background-color: rgb(17, 9, 129);
+    opacity: 70%;
+    color: rgb(168, 14, 245);
+    font-weight: lighter;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+  }
+  .know p {
+    font-size: 16px;
+  }
+  .about {
+    background-color: white;
+   
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .about p{
+    text-align: left;
+    text-align: justify;
+  }
+  .contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .address {
+    margin: 10%;
+    margin-top: 30%;
+  }
+  .address address {
+    padding: 22px;
+  }
+  .address p {
+    margin-top: 2%;
+   
+  }
+  .map {
+    margin: 10%;
+  }
+  .contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .contact .form{
+    margin-top: 10%;
+   
+    background-color: silver;
+    margin-right: 31%;
+    padding: 5%;
+    
+  }
+  .contact .form h2{
+    text-align: center;
+    color: blueviolet;
+    opacity: 80%;
+    padding: 2%;
+  }
+  .contact .form label{
+    display: inline-block;
+    margin-top: 6px;
+  }
+  .contact .form input{
+   padding:2% 5%;
+   margin-left: 21%;
+    display: flex;
+  }
+  .contact .form button{
+    margin-left: 28%;
+    padding: 3% 15%;
+    border: none;
+   background-color: rgb(220, 205, 255);
+  }
+  .contact .form button:hover{
+    background: linear-gradient(to right,rgba(23, 23, 113, 0.652),rgba(118, 35, 121, 0.586));
+    border-radius: 2px;
+    color: white;
+  }
+  .icons{
+    
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    align-items: center;
+    justify-content: center; */
+    margin-top: 3%;
+    margin-left: 45%;
+  
+  }
+  .icons img{
+    width: 3%;
+    height: 5vh;
+    margin-right: 5%;
+  }
+  .headingC{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 34px;
+    color: purple;
+  margin-bottom: 3%;
+  margin-top: 5%;
+  }
+  .cloths{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 4.5%;
+    margin-bottom: 5%;
+  }
+  .cList{
+    list-style-type: none;
+  }
+  .clothsImg img{
+width: 20vw;
+height: 50vh;
+  }
+
+  .categoryList{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    align-items: center;
+    justify-content: baseline;
+/* margin-left: 25%; */
+text-decoration: none;
+background-color:rgba(42, 50, 165, 0.962) ;
+padding: 1% 0;
+}
+.categoryBtn li{
+list-style-type: none;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+color: white;
+}
+
+
+.productsList{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+ gap: 5%;
+  margin-bottom: 20%;
+  margin-left: 4%;
+  margin-right: 4%;
+  list-style-type: none;
+
+}
+.iImage{
+  width: 20vw;
+  height: 45vh;
+}
+.eachItem{
+  background-color: lavender;
+  margin-top: 5%;
+  padding: 5% 3% 3% 2%;
+}
+.eachItem:hover{
+  background:linear-gradient(to right,rgba(0, 0, 255, 0.234),rgba(128, 0, 128, 0.245));
+ 
+}
+
+.sHeading{
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background:linear-gradient(to right,rgba(0, 0, 255, 0.511),rgba(128, 0, 128, 0.401)) ;
+
+  margin-top: 5%;
+padding: 2%;
+font-size: 35px;
+color: lightgreen;
+}
+.categoryBtns{
+  margin-left: 25%;
+}
+.categoryBtns button{
+  padding:1.5% 6%;
+  margin-top: 5%;
+  margin-right: 4%;
+  border: none;
+  background-color: rgba(0, 0, 255, 0.511);
+  border-radius: 2px;
+}
+.categoryBtns button:hover{
+  background: linear-gradient(to left,rgba(0, 0, 255, 0.511),rgba(128, 0, 128, 0.401));
+}
+.productsList .cart{
+  padding: 3.4% 9%;
+  margin-top: 2%;
+  border: none;
+  background-color: silver;
+  border-radius: 2px;
+}
+.productsList .cart:hover{
+  background-color: lightgreen;
+  color: black;
+}
+.page5 .cartHead{
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Times New Roman', Times, serif;
+  background:linear-gradient(to right,pink,silver);
+  padding: 2%;
+  color: rgba(25, 92, 126, 0.608);
+}
+
+.page5 .subHead{
+  margin: 15%;
+  margin-left: 40%;
+  font-size: 40px;
+  color: tomato;
+  text-transform: capitalize;
+}
+.page5 .lstItems {
+ text-align: center;
+ 
+ margin-left:-20%
+}
+.page5 .lstItems img{
+  width: 70px;
+  margin-top: 3%;
+}
+.page5 .cBtn{
+  margin-left: 50%;
+  margin-right: 3%;
+  transition: background-color 0.6s;
+ 
+}
+.page5 .cBtn:hover{
+  background-color: lightgreen;
+  border-radius: 3px;
+}
+.page5 button{
+  padding: 1% 5%;
+  border: none;
+  transition: background-color 0.6s;
+  
+}
+.page5 button:hover{
+  background-color: tomato;
+  border-radius: 3px;
+}
+.addrForm{
+  display: inline-block;
+  margin-top:2% ;
+  text-align: center;
+  background-color: pink;
+  margin-left: 25%;
+  padding: 4%;
+  font-family: cursive;
+}
+.addrForm .formHead{
+  margin-bottom: 3%;
+}
+.addrForm input{
+  padding:2% 8%;
+}
+.totalCost{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 2%;
+  font-family: Times, 'Times New Roman', serif;
+  color: lightgreen;
+}
